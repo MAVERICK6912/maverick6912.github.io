@@ -127,7 +127,7 @@ author:
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url: "https://facebook.com/"
     - label: "GitHub"
-      icon: "fab fa-github"
+      icon: "fab fa-fw fa-github-square"
       color: "red"
       url: "https://github.com/MAVERICK6912"
     # - label: "Instagram"
@@ -144,7 +144,7 @@ footer:
     #   icon: "fab fa-fw fa-facebook-square"
     #   # url:
     - label: "GitHub"
-      icon: "fab fa-github"
+      icon: "fab fa-fw fa-github-square"
       color: "red"
       url: "https://github.com/MAVERICK6912"
     - label: "GitLab"
