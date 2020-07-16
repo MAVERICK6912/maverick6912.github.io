@@ -213,8 +213,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  math_engine: mathjax #katex #mathjax
+  enable_coderay: false  
 
 
 # Sass/SCSS
