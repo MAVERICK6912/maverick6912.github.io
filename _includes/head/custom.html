@@ -13,6 +13,14 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff00">
   
+  <script type="text/javascript">
+    const funcOnPageLoad = () => document.querySelector("body").classList.add("loaded");
+    if (document.readyState !== "loading")
+      setTimeout(funcOnPageLoad, 500);
+    else
+      document.addEventListener('DOMContentLoaded', funcOnPageLoad);
+  </script>
+  
   {% if page.mathjax %}
 	<script type="text/x-mathjax-config">
 		MathJax.Hub.Config({
