@@ -11,15 +11,7 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="theme-color" content="#ffffff00">
-  
-  <script type="text/javascript">
-    const funcOnPageLoad = () => document.querySelector("body").classList.add("loaded");
-    if (document.readyState !== "loading")
-      setTimeout(funcOnPageLoad, 500);
-    else
-      document.addEventListener('DOMContentLoaded', funcOnPageLoad);
-  </script>
+  <meta name="theme-color" content="#ffffff00">    
   
   {% if page.mathjax %}
 	<script type="text/x-mathjax-config">
@@ -31,14 +23,15 @@
 			}
 		});
 	</script>
-	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
 {% elsif page.katex %}
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css" integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X" crossorigin="anonymous">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" integrity="sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js" integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa" crossorigin="anonymous"
-    onload="katexReady();"></script>
+    onload="renderMathInElement(document.body);"></script>
 	<script>
-		function katexReady() {
+		function renderMathInElement(elem, options) {
 			let renderArea = document.querySelector("section.page__content");
 			renderMathInElement(renderArea, {delimiters: [{left: "$$", right: "$$", display: true}]});
 			renderMathInElement(renderArea, {delimiters: [{left: "$", right: "$", display: false}]});
