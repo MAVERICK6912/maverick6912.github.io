@@ -214,7 +214,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  math_engine: katex #mathjax
+  math_engine: mathjax #katex #mathjax
 
 
 # Sass/SCSS
