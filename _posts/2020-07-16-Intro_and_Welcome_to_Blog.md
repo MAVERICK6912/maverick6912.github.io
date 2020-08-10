@@ -19,7 +19,7 @@ With this blog series **I aim to explain the Machine Learning concept in a simpl
  - **Why we need a certain Machine Learning concept?**
  - **What concepts are useful for a Machine Learning Process?**
  - **Real life examples.**
- -  **Code examples related to each concept.**  
+ - **Code examples related to each concept.**
  
  ## My expectation from the reader
 
