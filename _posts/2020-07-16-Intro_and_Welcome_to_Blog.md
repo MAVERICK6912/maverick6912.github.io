@@ -2,10 +2,11 @@
 title:  "Welcome post"
 date:   2020-07-17 00:03:33
 excerpt: "Welcome post for the reader. Describing aim of the blog,  expectation from reader and concepts I will cover."
+toc: true
+toc_sticky: false
 categories: [Miscellaneous]
 tags: [Welcome-post]
 ---
-{% include toc %}
 
 ## Introduction
 I am a .Net developer by profession based out of Bengaluru with two years of experience. Last year I made up my mind to dive deeper into the world of data science. After almost a year I can say that I have learned a lot and there's still a lot to learn. From exploring the data to modelling ANN(Artificial Neural Network) I have tried many things, sometimes my models performed worse than a base model and at other times I trained models that performed very well. That's how learning works, you make mistakes, learn from them and keep the process going.
