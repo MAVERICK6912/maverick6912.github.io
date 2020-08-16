@@ -64,7 +64,7 @@ We can come up with arguments like:
 - Assets of the customer(internal database via an online form filled by user).
 - Income per annum(internal database via an online form filled by user), etc
 
-Here we have identified a few data sources as mentioned these could belong to our internal system or to other systems.
+Here we have identified a few data sources, as mentioned these could belong to our internal system or to other systems.
 
  The data that we collect could come from various sources such as:  
  - Flat file sources
@@ -83,13 +83,13 @@ After identifying the data sources we will create pipelines to collect data from
 This is the first step where we take an actual peek into the data and write some code. In this step we try to find insights from our data and check the relevance of data for our problem. **We have two major steps of Data Science involved here**:
 
 1. **Data Pre-Processing**: This is one of the most important steps in the Machine Learning Life Cycle. Real world data doesn't usually come in an understandable format. So, in this step we:
-   1. Data Cleaning
-   2. Data Transformation
-   3. Data Reduction
+   1. Clean the data
+   2. Transform the data
+   3. Reduce the data
 
     > We pre-process the data to maintain data quality so that when we analyse the data to answer business questions and choose model to train we don't find misleading results.
 
-2. **Exploratory Data Analysis(EDA)**: After we're done with pre-processing of data the data is ready to be analyzed. During EDA we try to find useful insights from the data like:
+2. **Exploratory Data Analysis(EDA)**: After we're done with pre-processing of data, the data is ready to be analyzed. During EDA we try to find useful insights from the data like:
    1. Spread of data using [PDF & CDF](https://maverick6912.github.io/machine-learning/statistics/PDF-CDF/ "PDF & CDF") plots.
    2. Correlation between features using correlation matrix/heat map of correlation matrix.
    3. Central tendencies of features
@@ -100,7 +100,9 @@ This is the first step where we take an actual peek into the data and write some
 
     During EDA we tend to explore the data to its depth and find as many useful insights as possible. These two processes are usually the most time consuming processes in a Machine Learning Life Cycle process.
 
-> Data pre-processing and EDA are very big topics in themselves and deserve blogs of their own. Hence I will write blogs explaining both the processes in detail.
+> Data pre-processing and EDA are one of the **most important** and time consuming steps in Machine Learning Life Cycle.
+>
+>These are very big topics in themselves and deserve blogs of their own. Hence I will write blogs explaining both the processes in detail.
 
 ## Choosing a model
 
@@ -127,7 +129,7 @@ and check which algorithm performs better.
 
 ## Training
 
-The next step is to train the chosen model and tune the hyper-parameters to get the best fit model, that neither underfits nor overfits. That is a generalized model with a healthy test score.
+The next step is to train the chosen model and tune the hyper-parameters to get the best fit model, that neither underfits nor overfits. That is, a generalized model with a healthy test score.
 
 Training a model consists of following tasks:
 - Hyper-parameter tuning
@@ -139,7 +141,7 @@ Based on whatever model we choose the hyper-parameters change, we use techniques
 - **Stratified K-Fold cross validation for imbalanced datasets**
 - **LOOCV -Leave one out cross-validation**
  
- to evaluate the model on an array of hyper-parameters and check which combination of hyper-parameters give the best value of performance metric.
+ *to evaluate the model on an array of hyper-parameters and check which combination of hyper-parameters give the best value of performance metric*.
 
 > Based on the cross validation score we can check which combination of hyper-parameters give the best value of performance metric. Using these hyper-parameters we train our final model on all of training data.
 
@@ -161,7 +163,7 @@ Visualization of model performance, features importance, inference time, etc. he
 
 ## Deployment and Re-Training
 
-Models along with their communication API need to be deployed toa server or cloud environment, whichever the organization uses. As of current industry trend cloud environments are the most chosen deployment environments.
+Models along with their communication API need to be deployed to a server or cloud environment, whichever the organization uses. As of current industry trend cloud environments are the most trending deployment environments.
 
 Most used deployment environment for Machine Learning models are:
 - [Docker](https://analyticsindiamag.com/why-use-docker-in-machine-learning-we-explain-with-use-cases/)
@@ -175,19 +177,19 @@ There are also several factors to consider while deploying the model, such as:
 - Latency of predictions and SLA.
 - Operational cost for the required infrastructure, etc.
 
-*As the time passes we collect more and more data which we can further use to train our model and get better score for performance metric*. The frequency at which we need to retrain our model depends on the domain and the problem we are solving.
+*As the time passes we collect more and more data which we can further use to train our model and get better predictions*. The frequency at which we need to retrain our model depends on the domain and the problem we are solving.
 
 > Deployment and Re-training are the final steps in a Machine Learning Life Cycle process. Now our model is being fed with real world data and is producing results based on all the above steps we understood.
 
 ## Closing words
 
-In this blog I have not been able to describe everything in depth. So, for each Machine Learning Life Cycle step I will write a blog describing the steps in detail.
+In this blog I have not been able to describe everything in depth. So, for each Machine Learning Life Cycle step I will write a blog describing it in detail.
 
-Hope you liked the blog! 
-
-Keep an eye out for other blogs to come.
-
-If you liked the blog then please share it with others.
+> Hope you liked the blog! 
+>
+> Keep an eye out for upcoming blogs.
+>
+> If you liked the blog it would be great if you could share it with others.
 
 
 ***
