@@ -35,7 +35,7 @@ For those of you who don't understand what "loan default" means, here's a defini
 
 > **Default is the failure to repay a debt including interest or principal on a loan or security**. A default can occur when a borrower is unable to make timely payments, misses payments, or avoids or stops making payments. Individuals, businesses, and even countries can fall prey to default if they cannot keep up their debt obligations.
 
-In India we have seen a few individuals fleeing from country after major loan defaults and then completely denying it.  :wink: 
+In India we have seen a few individuals fleeing from country after major loan defaults and then completely denying it.   
 
 So, this is a major risk factor for financial institutions. Let's see how we can take this problem and solve it using data and in turn prove to be a value proposition for the company/institution. 
 
