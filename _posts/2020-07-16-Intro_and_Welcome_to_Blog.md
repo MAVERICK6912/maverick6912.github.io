@@ -3,7 +3,7 @@ title:  "Welcome post"
 date:   2020-07-17 00:03:33
 excerpt: "Welcome post for the reader. Describing aim of the blog,  expectation from reader and concepts I will cover."
 toc: true
-toc_sticky: false
+toc_sticky: true
 categories: [Miscellaneous]
 tags: [Welcome-post]
 ---
